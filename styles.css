@@ -118,3 +118,19 @@ body{background:linear-gradient(135deg,#fff8ef 0%,#fff4f8 48%,#f4f2ff 100%);colo
 .anatomy-clinical{background:#f3f0fa;border-radius:12px;padding:14px;margin-top:18px;font-size:12px;line-height:1.65;color:#5d5279}
 .anatomy-clinical p{margin:6px 0 0}
 @media(max-width:760px){.anatomy-layout{grid-template-columns:1fr}.anatomy-figure{max-width:310px}}
+
+
+/* High-detail reference anatomy atlas */
+.anatomy-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0}
+.anatomy-layout-real{grid-template-columns:minmax(300px,1.08fr) minmax(290px,.92fr);align-items:start}
+.anatomy-image-stage{min-height:390px;max-height:680px;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:13px;background:radial-gradient(ellipse at 50% 35%,#fff 0%,#f5f1f7 75%,#eeeaf4 100%);position:relative}
+.anatomy-reference-image{display:block;width:100%;height:100%;max-height:650px;object-fit:contain;padding:10px}
+.anatomy-reference-image.muscle-reference{max-height:650px}
+.anatomy-image-stage.image-error .anatomy-image-fallback{display:block}
+.anatomy-image-fallback{display:none;color:#7d758c;font-size:12px;padding:25px;text-align:center}
+.anatomy-image-caption{font-size:10px;color:#89839a;text-align:center;padding:9px 4px 2px}
+.anatomy-credits{margin:15px 0;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:10px;line-height:1.65;color:#756f86}
+.anatomy-credits p{margin:5px 0 8px}
+.anatomy-credits a{color:#7158c5;text-decoration:underline;text-underline-offset:2px}
+.anatomy-info{position:sticky;top:16px}
+@media(max-width:760px){.anatomy-layout-real{grid-template-columns:1fr}.anatomy-info{position:static}.anatomy-image-stage{min-height:300px;max-height:520px}.anatomy-reference-image{max-height:500px}}
