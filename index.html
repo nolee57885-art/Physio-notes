@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6f5f0" />
+  <meta name="description" content="Your personal, visual medical and physiotherapy study atlas." />
+  <title>Physio Atlas — Your living medical textbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" aria-label="Physio Atlas home"><span class="brand-mark">✳</span><span><b>physio atlas</b><small>YOUR PERSONAL TEXTBOOK</small></span></a>
+      <button class="new-note" id="newCondition"><span>＋</span> New condition</button>
+      <div class="nav-label">WORKSPACE</div>
+      <button class="nav-item active" data-view="library"><span>▦</span> My library</button>
+      <button class="nav-item" data-view="flashcards"><span>▤</span> Flashcards <span class="nav-count" id="dueCount">0</span></button>
+      <button class="nav-item" data-view="canvas"><span>✎</span> Sketchbook</button>
+      <button class="nav-item" data-view="bookmarks"><span>☆</span> Bookmarks</button>
+      <div class="nav-label systems-label">BODY SYSTEMS</div>
+      <div id="systemNav" class="system-nav"></div>
+      <div class="sidebar-bottom"><div class="streak-card"><span>✦</span><div><b>Your knowledge, growing.</b><small id="sidebarStats">0 conditions saved</small></div></div><button class="nav-item" data-view="settings"><span>⚙</span> Settings & backup</button></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><button class="mobile-menu" id="mobileMenu">☰</button><div class="breadcrumbs">MY WORKSPACE <span>/</span> <b id="crumb">MY LIBRARY</b></div><div class="top-actions"><label class="searchbox"><span>⌕</span><input id="searchInput" placeholder="Search conditions, topics..." /><kbd>⌘ K</kbd></label><button class="avatar" title="Your study space">P</button></div></header>
+      <section class="content" id="content"></section>
+      <footer>PHYSIO ATLAS <span>·</span> YOUR NOTES, YOUR KNOWLEDGE <span class="footer-right">A personal learning tool · Not clinical guidance</span></footer>
+    </main>
+  </div>
+  <input type="file" id="imageInput" accept="image/*" multiple hidden />
+  <input type="file" id="importInput" accept="application/json,.json" hidden />
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
