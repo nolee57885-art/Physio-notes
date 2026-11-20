@@ -23,3 +23,14 @@ The app stores notes, images, cards and sketches in the browser's local storage.
 
 ## Medical disclaimer
 This is a personal educational note-taking tool, not a clinical decision-support system. Seed notes are brief study prompts, not exhaustive clinical guidance. Verify clinical content against current evidence, local protocols and qualified supervision before applying it in practice.
+
+
+## Version 2 additions
+- Brighter, more colourful visual theme with pastel system accents and gradient highlights.
+- Dedicated **Articles & critical appraisal** workspace with editable article records.
+- Structured journal-club worksheet: research question, design, participants, intervention/comparator, outcomes, results, strengths, limitations, validity, applicability and practice implications.
+- Expanded condition chapter template with red flags, differential diagnosis, special tests, outcome measures, rehabilitation progression, precautions and evidence notes.
+- Article critiques are included in JSON export/import backups.
+
+## Article appraisal reminder
+Use the appraisal checklist that matches the study design (for example CASP, PEDro, CONSORT, STROBE or PRISMA). Record the article's actual findings rather than relying on an abstract alone. This tool does not automatically verify papers or calculate risk of bias.
