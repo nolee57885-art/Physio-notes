@@ -11,7 +11,9 @@ A personal, visual medical and physiotherapy textbook. Built as a lightweight st
 - Create and review active-recall flashcards
 - Bookmarks, search, and library overview
 - Learning hub: anatomy, biomechanics, special tests, exercise prescription, neurology, gait and posture, evidence-based practice
-- Interactive anterior/posterior anatomy map with selectable muscles and origin, insertion, action, innervation and physiotherapy relevance
+- High-detail visual anatomy atlas with licensed Wikimedia/OpenStax muscle illustrations and skeletal references (anterior/posterior views)
+- Switch between muscular and skeletal layers; select individual structures for attachments, actions/biomechanical role, innervation or neural relations, and physiotherapy connections
+- Image credits and licence links displayed in the anatomy explorer
 - Clinical case simulations, OSCE checklists, mixed-topic quizzes and editable rehabilitation treatment plans
 - Export and import a JSON backup
 
