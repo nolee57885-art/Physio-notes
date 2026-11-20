@@ -96,3 +96,25 @@ body{background:linear-gradient(135deg,#fff8ef 0%,#fff4f8 48%,#f4f2ff 100%);colo
 .saved-plan b{font-size:12px}.saved-plan p{font-size:11px;color:var(--muted);line-height:1.5}
 @media(max-width:900px){.learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.case-grid,.osce-grid{grid-template-columns:1fr}.planner-layout{grid-template-columns:1fr}}
 @media(max-width:560px){.learning-grid,.learning-topic-grid{grid-template-columns:1fr}.planner-form .form-two{grid-template-columns:1fr}.learning-card{min-height:0}}
+
+
+/* Interactive visual anatomy explorer */
+.anatomy-layout{display:grid;grid-template-columns:minmax(280px,.95fr) minmax(300px,1.05fr);gap:16px;align-items:stretch;margin:16px 0}
+.anatomy-visual-panel,.anatomy-info{background:#fff;border:1px solid var(--line);border-radius:17px;padding:20px}
+.anatomy-controls{display:flex;gap:8px;justify-content:center}
+.anatomy-figure{max-width:390px;margin:14px auto 4px;background:linear-gradient(145deg,#f8f0fa,#fff4e8);border-radius:18px;padding:12px}
+.anatomy-figure svg{width:100%;height:auto;max-height:470px;display:block}
+.body-shape{fill:#f4cdbd;stroke:#c98f7d;stroke-width:.8}
+.body-detail{fill:none;stroke:#c18a7d;stroke-width:.7;stroke-linecap:round;stroke-linejoin:round}
+.anatomy-hotspot{fill:#987bd0;stroke:#fff;stroke-width:1.5;cursor:pointer;transition:r .15s,fill .15s}
+.anatomy-hotspot:hover,.anatomy-hotspot:focus,.anatomy-hotspot.selected{fill:#e28b9c;stroke:#fff;stroke-width:2;outline:none;r:4.7}
+.anatomy-key{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.anatomy-key-item{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 10px;font-size:10px;color:var(--ink)}
+.anatomy-key-item.active{background:#eee8f7;border-color:#c8b8e5;color:#624e8c}
+.anatomy-disclaimer{font-size:10px;color:var(--muted);line-height:1.5;margin:12px 0 0}
+.anatomy-info h2{font:800 25px Manrope,sans-serif;letter-spacing:-.6px;margin:12px 0 18px}
+.anatomy-info>p{font-size:12px;line-height:1.7;color:#53635d;margin:5px 0 14px}
+.anatomy-info .anatomy-description{font-size:9px;letter-spacing:1px;text-transform:uppercase;font-weight:800;color:#a078b9;margin:15px 0 4px}
+.anatomy-clinical{background:#f3f0fa;border-radius:12px;padding:14px;margin-top:18px;font-size:12px;line-height:1.65;color:#5d5279}
+.anatomy-clinical p{margin:6px 0 0}
+@media(max-width:760px){.anatomy-layout{grid-template-columns:1fr}.anatomy-figure{max-width:310px}}
