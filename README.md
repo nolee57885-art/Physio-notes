@@ -37,4 +37,4 @@ Use the appraisal checklist that matches the study design (for example CASP, PED
 
 
 ## Expanded topic library
-The library includes a further batch of 24 editable topic templates. From the main library, choose **Add 24 more topics**. Each topic includes a concise overview, clinical assessment prompts, red flags, management and rehabilitation considerations, outcome measures, special tests/differentials where relevant, and complications. These are educational starting points, not patient-specific protocols.
+The library includes a further batch of 29 editable topic templates. From the main library, choose **Add 29 more topics**. Each topic includes a concise overview, clinical assessment prompts, red flags, management and rehabilitation considerations, outcome measures, special tests/differentials where relevant, and complications. These are educational starting points, not patient-specific protocols.
