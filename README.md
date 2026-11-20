@@ -34,3 +34,7 @@ This is a personal educational note-taking tool, not a clinical decision-support
 
 ## Article appraisal reminder
 Use the appraisal checklist that matches the study design (for example CASP, PEDro, CONSORT, STROBE or PRISMA). Record the article's actual findings rather than relying on an abstract alone. This tool does not automatically verify papers or calculate risk of bias.
+
+
+## Expanded topic library
+The library includes a further batch of 24 editable topic templates. From the main library, choose **Add 24 more topics**. Each topic includes a concise overview, clinical assessment prompts, red flags, management and rehabilitation considerations, outcome measures, special tests/differentials where relevant, and complications. These are educational starting points, not patient-specific protocols.
