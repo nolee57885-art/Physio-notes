@@ -11,6 +11,7 @@ A personal, visual medical and physiotherapy textbook. Built as a lightweight st
 - Create and review active-recall flashcards
 - Bookmarks, search, and library overview
 - Learning hub: anatomy, biomechanics, special tests, exercise prescription, neurology, gait and posture, evidence-based practice
+- Interactive anterior/posterior anatomy map with selectable muscles and origin, insertion, action, innervation and physiotherapy relevance
 - Clinical case simulations, OSCE checklists, mixed-topic quizzes and editable rehabilitation treatment plans
 - Export and import a JSON backup
 
